@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Web.Factory.FactoryMethod.BaseEmployeeFactory">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAQAA=</HashCode>
+      <FileName>Factory\FactoryMethod\BaseEmployeeFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Web.Factory.FactoryMethod.ContractEmployeeFactory">
+    <Position X="2.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\FactoryMethod\ContractEmployeeFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Web.Factory.FactoryMethod.EmployeeManagerFactory">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\FactoryMethod\EmployeeManagerFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Web.Factory.FactoryMethod.PermanentEmployeeFactory">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\FactoryMethod\PermanentEmployeeFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Web.Managers.ContractEmployeeManager">
+    <Position X="8.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAABAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Managers\ContractEmployeeManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Web.Managers.PermanentEmployeeManager">
+    <Position X="6.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAgAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Managers\PermanentEmployeeManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Web.Models.Employee" Collapsed="true">
+    <Position X="5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgACAAAAAAIAEAAAAEIAAEQAEgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Web.Models.Employee_Type" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAABAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Employee_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Web.Models.EmployeePortalEntities" Collapsed="true">
+    <Position X="8.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\EmployeeModel.Context.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Web.Managers.IEmployeeManager">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Managers\IEmployeeManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29418.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web.csproj", "{A262D0B4-E5EA-482B-A3E9-DC04B608B812}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Logger", "..\Logger\Logger.csproj", "{6663EABE-4A0E-4083-AE46-A5C865EE969C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A262D0B4-E5EA-482B-A3E9-DC04B608B812}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A262D0B4-E5EA-482B-A3E9-DC04B608B812}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A262D0B4-E5EA-482B-A3E9-DC04B608B812}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A262D0B4-E5EA-482B-A3E9-DC04B608B812}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6663EABE-4A0E-4083-AE46-A5C865EE969C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6663EABE-4A0E-4083-AE46-A5C865EE969C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6663EABE-4A0E-4083-AE46-A5C865EE969C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6663EABE-4A0E-4083-AE46-A5C865EE969C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2D76E103-7E58-45B3-867A-5987A44CC1D2}
+	EndGlobalSection
+EndGlobal
